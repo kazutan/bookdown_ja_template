@@ -28,7 +28,7 @@ ggplot2逆引き記事内にて使用するパッケージも必要となりま�
 
 http://ipafont.ipa.go.jp/
 
-また,bookdownはutf-8しか受け付けません。そのためwindowsではうまく動かないかもしれません(未検証)。もし何かありましたらissueなり@kazutan までご連絡ください。
+また,bookdownはutf-8しか受け付けません。そのためwindowsではうまく動かないかもしれません(未検証)。もし何かありましたらissueなりkazutan までご連絡ください。
 
 私の作業環境(動作確認環境)は,最後にまとめて表示しています。
 
@@ -57,7 +57,7 @@ bookdown::render_book("index.Rmd", output_format = "bookdown::epub_book")
 bookdown::render_book("index.Rmd", output_format = "bookdown::pdf_book")
 ```
 
-RStudioを利用しているなら,BuildパネルでBuilde Bookから選択してください。もしBuildタブがRStudioで表示されない場合,一度RStudioを終了させてもう一度開いてください。
+RStudioを利用しているなら,BuildパネルでBuild Bookから選択してください。もしBuildタブがRStudioで表示されない場合,一度RStudioを終了させてもう一度開いてください。
 
 ### 生成物の場所
 

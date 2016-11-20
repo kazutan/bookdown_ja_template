@@ -2,6 +2,8 @@
 book_filename: "book_filename"
 #チャプターの枕詞
 chapter_name: "chapter: "
+#出力先の指定。docsに指定しています
+output_dir: docs
 #使用するRmdファイル群。指定しなければすべてのRmdを持ってきます
 # rmd_file: ["index.Rmd", "hoge.Rmd", "hogehoge.Rmd"]
 # 詳しくは公式ドキュメントを参照してください
